@@ -154,7 +154,7 @@ Public Class Form1
 
         'Enlazamos el DataGridView al BindingSource
         DataGridView2.DataSource = enlace
-        BindingNavigator1.BindingSource = enlace
+        
         'Enlazamos los TextBox al BindingSource
         NombreBindingSourceTextBox.DataBindings.Clear()
         NombreBindingSourceTextBox.DataBindings.Add("Text", enlace, "nombre")
